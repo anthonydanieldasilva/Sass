@@ -1,0 +1,24 @@
+@import "media";
+
+$color-claro: rgb(246, 237, 237);
+$color-oscuro: rgb(134, 121, 121);
+
+h1{
+    color: $color-oscuro;
+    size: 40rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 30%;
+}
+
+header{
+    .fondo-nav{
+        background-color: $color-oscuro;
+    }
+    .fondo-principal{
+        background-image: url(../imagenes/franzkafka.jpg);
+        padding: 15rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.9;
+    }
+}

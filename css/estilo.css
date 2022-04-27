@@ -1,0 +1,19 @@
+@media (max-width: 960px) {
+  .navbar {
+    opacity: 0.5; } }
+
+h1 {
+  color: #867979;
+  size: 40rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 30%; }
+
+header .fondo-nav {
+  background-color: #867979; }
+
+header .fondo-principal {
+  background-image: url(../imagenes/franzkafka.jpg);
+  padding: 15rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9; }
